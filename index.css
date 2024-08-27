@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-image: url("basket_ball.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#HOME{
+    background-color: rgb(28, 28, 28);
+    height: 100px;
+    width: 160px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    color: rgb(207, 85, 85);
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Verdana', sans-serif;
+}
+
+#GUEST{
+    background-color: rgb(28, 28, 28);
+    height: 100px;
+    width: 160px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    color: rgb(207, 85, 85);
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Verdana', sans-serif;
+}
+
+#point{
+    border: solid white 2.5px;
+    background-color: transparent;
+    color: white;
+    padding: 8px;   
+    margin: 3px;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 10px;
+}
+
+#reload{
+    margin-top: 115px;
+    padding: 10px;
+    cursor: pointer;
+    border: solid black 4px;
+    font-weight: bold;
+}
